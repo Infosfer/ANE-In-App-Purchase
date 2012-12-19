@@ -46,7 +46,7 @@
 		<exec executable="xcodebuild" dir="NativeIOS" 
 			failonerror="true"> 
 			<arg line="-project ${iosProjectName.xcodeproj}"/>
-			<arg line="-sdk iphoneos4.3"/>
+			<arg line="-sdk iphoneos6.0"/>
 			<arg line="-alltargets" />
 			<arg line="-configuration Release" />
 		            
@@ -64,7 +64,7 @@
 	</target>
 
 
-	<target name="unzipSwf" depends="AndroidCopy">
+	<target name="unzipSwf" depends="iOSCopy">
 	        <mkdir dir="temp"/>
 		<unzip src="${lib.swc}" dest="temp"/>
 		<copy file="temp/library.swf" todir="${build}/Android"/>
@@ -84,12 +84,6 @@
 			
 			<arg value="-swc"/>
 			<arg value="${lib.swc}"/>
-			
-			<arg value="-platform"/> 
-			<arg value="Android-ARM"/>
-			<arg value="-C"/>
-			<arg value="${build}/Android"/>
-			<arg value="."/>
 			
 			<arg value="-platform"/>
 			<arg value="iPhone-ARM"/>

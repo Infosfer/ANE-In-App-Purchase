@@ -9,22 +9,22 @@
 /* Begin PBXBuildFile section */
 		5AC18A8B152A0AED007399DB /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC18A89152A0AED007399DB /* JSONKit.h */; };
 		5AC18A8C152A0AED007399DB /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC18A8A152A0AED007399DB /* JSONKit.m */; };
+		B28545B91681E781006C22B9 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B28545B81681E781006C22B9 /* FlashRuntimeExtensions.h */; };
 		BFA8AB071527AFB700845071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA8AB061527AFB700845071 /* Foundation.framework */; };
 		BFA8AB0D1527AFB700845071 /* AirInAppPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA8AB0C1527AFB700845071 /* AirInAppPurchase.m */; };
 		BFA8AB141527B02300845071 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA8AB131527B02300845071 /* StoreKit.framework */; };
-		BFA8AB1E1527FACD00845071 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA8AB1D1527FACD00845071 /* FlashRuntimeExtensions.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5AC18A89152A0AED007399DB /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = JSONKit/JSONKit.h; sourceTree = SOURCE_ROOT; };
 		5AC18A8A152A0AED007399DB /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = JSONKit/JSONKit.m; sourceTree = SOURCE_ROOT; };
+		B28545B81681E781006C22B9 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 		BFA8AB031527AFB700845071 /* libAirInAppPurchase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAirInAppPurchase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA8AB061527AFB700845071 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFA8AB0A1527AFB700845071 /* AirInAppPurchase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirInAppPurchase-Prefix.pch"; sourceTree = "<group>"; };
 		BFA8AB0B1527AFB700845071 /* AirInAppPurchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirInAppPurchase.h; sourceTree = "<group>"; };
 		BFA8AB0C1527AFB700845071 /* AirInAppPurchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirInAppPurchase.m; sourceTree = "<group>"; };
 		BFA8AB131527B02300845071 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		BFA8AB1D1527FACD00845071 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = "/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/include/FlashRuntimeExtensions.h"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				5AC18A89152A0AED007399DB /* JSONKit.h */,
+				B28545B81681E781006C22B9 /* FlashRuntimeExtensions.h */,
 				5AC18A8A152A0AED007399DB /* JSONKit.m */,
-				BFA8AB1D1527FACD00845071 /* FlashRuntimeExtensions.h */,
 				BFA8AB0B1527AFB700845071 /* AirInAppPurchase.h */,
 				BFA8AB0C1527AFB700845071 /* AirInAppPurchase.m */,
 				BFA8AB091527AFB700845071 /* Supporting Files */,
@@ -94,8 +94,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA8AB1E1527FACD00845071 /* FlashRuntimeExtensions.h in Headers */,
 				5AC18A8B152A0AED007399DB /* JSONKit.h in Headers */,
+				B28545B91681E781006C22B9 /* FlashRuntimeExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
