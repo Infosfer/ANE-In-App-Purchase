@@ -1,4 +1,5 @@
-.DS_Store*
-Binaries/
+.DS_Store
+NativeIOS/build/
+Binaries/**/
 build/
 bin/
